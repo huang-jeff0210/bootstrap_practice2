@@ -1,0 +1,124 @@
+.kv4{
+    width: 100%;
+    height: 750px;
+    background-image : url("https://picsum.photos/1400/1000?random=10");
+    background-size: cover;
+}
+.kv5{
+    width: 100%;
+    height: 750px;
+    background-image : url("https://picsum.photos/1400/1000?random=11");
+    background-size: cover;
+}
+.kv6{
+    width: 100%;
+    height: 750px;
+    background-image : url("https://picsum.photos/1400/1000?random=12");
+    background-size: cover;
+}
+.kv7{
+    width: 100%;
+    height: 225px;
+    background-image : url("https://picsum.photos/1400/1000?random=12");
+    background-size: cover;
+}
+.kv4,.kv5,.kv6,.kv7 .text{
+    text-align: center;
+    color: white;
+}
+hr{
+    margin: 0 auto;
+    color: white;
+}
+.fa-color{
+    color: royalblue;
+}
+.fa-size{
+    font-size: 70px;
+}
+.marks{
+    text-align: center;
+}
+.bg-col{
+    background-color:floralwhite;
+}
+.bg-col p{
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+.title{
+    text-align: center;
+}
+.img_div,.img_div2 {
+    position: relative;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(39, 99, 228, 0.836);
+    color: #ffffff;
+    opacity: 0;
+}
+.mask h4{
+    line-height: 200px;
+    text-align: center;
+}
+.img_div a:hover .mask {
+    opacity: 0.7;           
+}
+.mask2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 63%;
+    background: rgba(39, 99, 228, 0.836);
+    color: #ffffff;
+    opacity: 0;
+}
+.mask2 h4{
+    line-height: 200px;
+    text-align: center;
+}
+.img_div2 a:hover .mask2 {
+    opacity: 0.7;           
+}
+.place{
+    margin: 0 auto;
+}
+.myform{
+    background-color: #fbce00;
+}
+.Booking{
+    color: #003060;
+    font-size: 25px;
+    font-weight: 900;
+}
+.com{
+    color: 	#2894FF;
+    font-size: 25px;
+    font-weight: 900;
+}
+.last p{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.news{
+    background-color: rgb(250, 250, 250);
+}
+
+.fa-fb{
+    color: #2894FF;
+}
+.fa-tw{
+    color: #84C1FF;
+}
+.fa-ins{
+    color: 	#004B97;
+}
+.fa-yt{
+    color: 	#FF2D2D;
+}
